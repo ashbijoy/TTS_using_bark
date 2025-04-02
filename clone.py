@@ -1,4 +1,4 @@
-from TTS.tts.configs.bark_config import BarkConfig
+from TTS.tts.config.bark_config import BarkConfig
 from TTS.tts.models.bark import Bark
 from scipy.io.wavfile import write as write_wav
 
